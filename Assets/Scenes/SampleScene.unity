@@ -701,6 +701,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845996467}
   m_CullTransparentMesh: 1
+--- !u!1 &1990575368 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5674862034909976821, guid: e32c4fab575f6b442ae30ce327268717, type: 3}
+  m_PrefabInstance: {fileID: 4812532398686144417}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1990575370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990575368}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.588936, y: 12.70105, z: 10.327008}
+  m_Center: {x: 0.094042785, y: 0.0043029785, z: -0.061925407}
+--- !u!114 &1990575371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990575368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a4eecbfb15acd48b207920252a95f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyEffect: {fileID: 2808210409144581084, guid: 6380ff10dc4b4fc4287fb61e5c4ad30e, type: 3}
 --- !u!1001 &30665391933355955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -817,7 +856,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5674862034909976821, guid: e32c4fab575f6b442ae30ce327268717, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1990575371}
+    - targetCorrespondingSourceObject: {fileID: 5674862034909976821, guid: e32c4fab575f6b442ae30ce327268717, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1990575370}
   m_SourcePrefab: {fileID: 100100000, guid: e32c4fab575f6b442ae30ce327268717, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
