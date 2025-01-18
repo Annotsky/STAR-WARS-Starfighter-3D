@@ -52,7 +52,7 @@ public class PlayerFire : MonoBehaviour
     {
         foreach (GameObject laser in lasers)
         {
-            Vector3 fireDirection = targetPoint.position - transform.position;
+            Vector3 fireDirection = targetPoint.position - laser.transform.position;
             Quaternion rotationToTarget = Quaternion.LookRotation(fireDirection);
             laser.transform.rotation = rotationToTarget;
         }
