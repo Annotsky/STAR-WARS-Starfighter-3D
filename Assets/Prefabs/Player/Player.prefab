@@ -203,7 +203,7 @@ MonoBehaviour:
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
-  m_Antialiasing: 0
+  m_Antialiasing: 3
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    m_Quality: 3
+    m_Quality: 4
     m_FrameInfluence: 0.1
     m_JitterScale: 1
     m_MipBias: 0
@@ -248,7 +248,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7928810621812159751}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7032579, z: -0, w: 0.7109349}
+  m_LocalRotation: {x: 0, y: 0.7032582, z: 0, w: 0.7109345}
   m_LocalPosition: {x: 32.58, y: 13.19, z: 77.8}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
@@ -328,15 +328,60 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2122594408473287351, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2122594408473287351, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 2999777284731855105, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
       propertyPath: targetPoint
       value: 
       objectReference: {fileID: 5186230967308339455}
+    - target: {fileID: 5689313325453322538, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0069999695
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689313325453322538, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.93999946
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689313325453322538, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449886727983489584, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449886727983489584, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832151626888920988, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.90000093
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832151626888920988, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0069999695
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832151626888920988, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.9400005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832151626888920988, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7067448788209119454, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
       propertyPath: m_Name
       value: Player Ship
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3525969945423371041, guid: f4b68da6e6909b24085e0c03d1a812b8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
